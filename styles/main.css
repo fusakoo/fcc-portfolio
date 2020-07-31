@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Sora|Open+Sans:300,400');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Sora', sans-serif;
+}
+
+/* header */
+
+
+/* welcome section */
+
+/* about section */
+
+#about h2 {
+    text-align: center;
+}
+
+.profile-image {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* project section */
+
+#projects {
+    text-align: center;
+    margin: 1em;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(602px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.project-container {
+    position: relative;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    width: 602px;
+    height: 300px;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.project-container:hover .overlay{
+    opacity: 1;
+}
+
+.text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.codepen {
+    height: 1.5em;
+    width: auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+/* contact section */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10ex 0 10em 0;
+}
+
+/* footer */
+
+footer{
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+}
