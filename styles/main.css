@@ -204,7 +204,7 @@ li a:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
-.project-container:hover .overlay{
+.project-tile:hover .overlay{
     opacity: 1;
 }
 
