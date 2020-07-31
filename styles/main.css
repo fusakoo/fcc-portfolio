@@ -87,7 +87,7 @@ li a:hover {
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 700px;
+    height: 100vh;
     color: #fff;
 }
 
@@ -173,7 +173,7 @@ li a:hover {
     height: 100%;
 }
 
-.project-container {
+.project-tile {
     position: relative;
     margin: 20px;
     width: auto;
@@ -185,7 +185,7 @@ li a:hover {
     .projects {
         margin: 0;
     }
-    .project-container {
+    .project-tile {
         max-width: 100%;
         height: auto;
     }
